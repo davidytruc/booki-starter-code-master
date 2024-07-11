@@ -25,6 +25,20 @@ body {
     box-sizing: border-box;
 }
 
+/*
+**** Ajout de propriétés CSS du header
+*/
+
+header {
+
+}
+
+
+/*
+**** Fin de Ajout de propriétés CSS du header
+*/
+
+
 a {
     color: inherit;
     text-decoration: none;
