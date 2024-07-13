@@ -258,8 +258,39 @@ a {
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
+}
+
+.hebergements-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 207px 207px;
+    gap: 20px;
+    margin-top: 33px;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+}
+
+.hebergements-cards .card-content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 8px;
 }
 
 /****** Populaires ***********/
