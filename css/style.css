@@ -200,11 +200,14 @@ input {
     margin-top: 0;
     border: solid 3px var(--main-bg-color);
     border-radius: 26px;
+    transition-property: transform;
+    transition-duration: 200ms;
 }
 
 .filtres_boutons p:hover {
     background-color: var(--filter-bg-color);
     cursor: pointer;
+    transform: scale(1.2);
 }
 /*
 **** Fin de Ajout de propriétés CSS section sous_header
