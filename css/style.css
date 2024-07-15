@@ -93,6 +93,17 @@ h3 {
     font-size: 16px;
 }
 
+h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
 /*
 **** Fin de Ajout de propriétés CSS des titres
 */
@@ -339,6 +350,55 @@ a {
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+
+/****** Activités ***********/
+
+.activites {
+    margin-top: 45px;
+}
+
+.activites h1 {
+    margin-bottom: 20px;
+}
+
+.flex_activites {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_activites {
+    width: 22%;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px var(--main-bg-color);
+}
+
+.card_activites img {
+    height: 380px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+
+/****** Footer ***********/
+
+footer {
+    background-color: var(--main-bg-color);
+    margin-top: 35px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.piedepage {
+    margin: 20px;
+}
+
+.piedepage p {
+    margin-bottom: 10px;
+    font-size: 16px;
 }
 
 
