@@ -568,12 +568,8 @@ li {
         grid-template-columns: 1fr 1fr;
       }
 
-      .filtres_boutons a {
-        width: 162px;
-      }
-
     .filtres_boutons p {
-        font-size: 14px;
+        font-size: 13px;
       }
 
     .hebergements-and-populaires {
