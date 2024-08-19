@@ -395,6 +395,7 @@ a {
 .card_activites {
     border-radius: 15px;
     box-shadow: 0 0 2px 2px var(--main-bg-color);
+    height: 100%;
 }
 
 .card_activites img {
